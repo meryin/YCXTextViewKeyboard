@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B94FD5221D265689003E0CB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FD5211D265689003E0CB6 /* AppDelegate.swift */; };
+		B94FD5241D265689003E0CB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FD5231D265689003E0CB6 /* ViewController.swift */; };
+		B94FD5271D265689003E0CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94FD5251D265689003E0CB6 /* Main.storyboard */; };
+		B94FD5291D265689003E0CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94FD5281D265689003E0CB6 /* Assets.xcassets */; };
+		B94FD52C1D265689003E0CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94FD52A1D265689003E0CB6 /* LaunchScreen.storyboard */; };
+		B94FD5371D265689003E0CB6 /* YCXTextViewKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FD5361D265689003E0CB6 /* YCXTextViewKeyboardTests.swift */; };
+		B94FD5421D265689003E0CB6 /* YCXTextViewKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FD5411D265689003E0CB6 /* YCXTextViewKeyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B94FD5331D265689003E0CB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B94FD5161D265688003E0CB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B94FD51D1D265688003E0CB6;
+			remoteInfo = YCXTextViewKeyboard;
+		};
+		B94FD53E1D265689003E0CB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B94FD5161D265688003E0CB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B94FD51D1D265688003E0CB6;
+			remoteInfo = YCXTextViewKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B94FD51E1D265689003E0CB6 /* YCXTextViewKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCXTextViewKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94FD5211D265689003E0CB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B94FD5231D265689003E0CB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B94FD5261D265689003E0CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B94FD5281D265689003E0CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B94FD52B1D265689003E0CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B94FD52D1D265689003E0CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94FD5321D265689003E0CB6 /* YCXTextViewKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCXTextViewKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94FD5361D265689003E0CB6 /* YCXTextViewKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCXTextViewKeyboardTests.swift; sourceTree = "<group>"; };
+		B94FD5381D265689003E0CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94FD53D1D265689003E0CB6 /* YCXTextViewKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCXTextViewKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94FD5411D265689003E0CB6 /* YCXTextViewKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCXTextViewKeyboardUITests.swift; sourceTree = "<group>"; };
+		B94FD5431D265689003E0CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B94FD51B1D265688003E0CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94FD52F1D265689003E0CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94FD53A1D265689003E0CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B94FD5151D265688003E0CB6 = {
+			isa = PBXGroup;
+			children = (
+				B94FD5201D265689003E0CB6 /* YCXTextViewKeyboard */,
+				B94FD5351D265689003E0CB6 /* YCXTextViewKeyboardTests */,
+				B94FD5401D265689003E0CB6 /* YCXTextViewKeyboardUITests */,
+				B94FD51F1D265689003E0CB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B94FD51F1D265689003E0CB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B94FD51E1D265689003E0CB6 /* YCXTextViewKeyboard.app */,
+				B94FD5321D265689003E0CB6 /* YCXTextViewKeyboardTests.xctest */,
+				B94FD53D1D265689003E0CB6 /* YCXTextViewKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B94FD5201D265689003E0CB6 /* YCXTextViewKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B94FD5211D265689003E0CB6 /* AppDelegate.swift */,
+				B94FD5231D265689003E0CB6 /* ViewController.swift */,
+				B94FD5251D265689003E0CB6 /* Main.storyboard */,
+				B94FD5281D265689003E0CB6 /* Assets.xcassets */,
+				B94FD52A1D265689003E0CB6 /* LaunchScreen.storyboard */,
+				B94FD52D1D265689003E0CB6 /* Info.plist */,
+			);
+			path = YCXTextViewKeyboard;
+			sourceTree = "<group>";
+		};
+		B94FD5351D265689003E0CB6 /* YCXTextViewKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				B94FD5361D265689003E0CB6 /* YCXTextViewKeyboardTests.swift */,
+				B94FD5381D265689003E0CB6 /* Info.plist */,
+			);
+			path = YCXTextViewKeyboardTests;
+			sourceTree = "<group>";
+		};
+		B94FD5401D265689003E0CB6 /* YCXTextViewKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B94FD5411D265689003E0CB6 /* YCXTextViewKeyboardUITests.swift */,
+				B94FD5431D265689003E0CB6 /* Info.plist */,
+			);
+			path = YCXTextViewKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B94FD51D1D265688003E0CB6 /* YCXTextViewKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94FD5461D265689003E0CB6 /* Build configuration list for PBXNativeTarget "YCXTextViewKeyboard" */;
+			buildPhases = (
+				B94FD51A1D265688003E0CB6 /* Sources */,
+				B94FD51B1D265688003E0CB6 /* Frameworks */,
+				B94FD51C1D265688003E0CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCXTextViewKeyboard;
+			productName = YCXTextViewKeyboard;
+			productReference = B94FD51E1D265689003E0CB6 /* YCXTextViewKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B94FD5311D265689003E0CB6 /* YCXTextViewKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94FD5491D265689003E0CB6 /* Build configuration list for PBXNativeTarget "YCXTextViewKeyboardTests" */;
+			buildPhases = (
+				B94FD52E1D265689003E0CB6 /* Sources */,
+				B94FD52F1D265689003E0CB6 /* Frameworks */,
+				B94FD5301D265689003E0CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B94FD5341D265689003E0CB6 /* PBXTargetDependency */,
+			);
+			name = YCXTextViewKeyboardTests;
+			productName = YCXTextViewKeyboardTests;
+			productReference = B94FD5321D265689003E0CB6 /* YCXTextViewKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B94FD53C1D265689003E0CB6 /* YCXTextViewKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94FD54C1D265689003E0CB6 /* Build configuration list for PBXNativeTarget "YCXTextViewKeyboardUITests" */;
+			buildPhases = (
+				B94FD5391D265689003E0CB6 /* Sources */,
+				B94FD53A1D265689003E0CB6 /* Frameworks */,
+				B94FD53B1D265689003E0CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B94FD53F1D265689003E0CB6 /* PBXTargetDependency */,
+			);
+			name = YCXTextViewKeyboardUITests;
+			productName = YCXTextViewKeyboardUITests;
+			productReference = B94FD53D1D265689003E0CB6 /* YCXTextViewKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B94FD5161D265688003E0CB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "尹彩霞";
+				TargetAttributes = {
+					B94FD51D1D265688003E0CB6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B94FD5311D265689003E0CB6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B94FD51D1D265688003E0CB6;
+					};
+					B94FD53C1D265689003E0CB6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B94FD51D1D265688003E0CB6;
+					};
+				};
+			};
+			buildConfigurationList = B94FD5191D265688003E0CB6 /* Build configuration list for PBXProject "YCXTextViewKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B94FD5151D265688003E0CB6;
+			productRefGroup = B94FD51F1D265689003E0CB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B94FD51D1D265688003E0CB6 /* YCXTextViewKeyboard */,
+				B94FD5311D265689003E0CB6 /* YCXTextViewKeyboardTests */,
+				B94FD53C1D265689003E0CB6 /* YCXTextViewKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B94FD51C1D265688003E0CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94FD52C1D265689003E0CB6 /* LaunchScreen.storyboard in Resources */,
+				B94FD5291D265689003E0CB6 /* Assets.xcassets in Resources */,
+				B94FD5271D265689003E0CB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94FD5301D265689003E0CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94FD53B1D265689003E0CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B94FD51A1D265688003E0CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94FD5241D265689003E0CB6 /* ViewController.swift in Sources */,
+				B94FD5221D265689003E0CB6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94FD52E1D265689003E0CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94FD5371D265689003E0CB6 /* YCXTextViewKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94FD5391D265689003E0CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94FD5421D265689003E0CB6 /* YCXTextViewKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B94FD5341D265689003E0CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B94FD51D1D265688003E0CB6 /* YCXTextViewKeyboard */;
+			targetProxy = B94FD5331D265689003E0CB6 /* PBXContainerItemProxy */;
+		};
+		B94FD53F1D265689003E0CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B94FD51D1D265688003E0CB6 /* YCXTextViewKeyboard */;
+			targetProxy = B94FD53E1D265689003E0CB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B94FD5251D265689003E0CB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94FD5261D265689003E0CB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B94FD52A1D265689003E0CB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94FD52B1D265689003E0CB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B94FD5441D265689003E0CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B94FD5451D265689003E0CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B94FD5471D265689003E0CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YCXTextViewKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobao.SCar.YCXTextViewKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B94FD5481D265689003E0CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YCXTextViewKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobao.SCar.YCXTextViewKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B94FD54A1D265689003E0CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YCXTextViewKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobao.SCar.YCXTextViewKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCXTextViewKeyboard.app/YCXTextViewKeyboard";
+			};
+			name = Debug;
+		};
+		B94FD54B1D265689003E0CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YCXTextViewKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobao.SCar.YCXTextViewKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCXTextViewKeyboard.app/YCXTextViewKeyboard";
+			};
+			name = Release;
+		};
+		B94FD54D1D265689003E0CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YCXTextViewKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobao.SCar.YCXTextViewKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YCXTextViewKeyboard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B94FD54E1D265689003E0CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YCXTextViewKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobao.SCar.YCXTextViewKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YCXTextViewKeyboard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B94FD5191D265688003E0CB6 /* Build configuration list for PBXProject "YCXTextViewKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94FD5441D265689003E0CB6 /* Debug */,
+				B94FD5451D265689003E0CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94FD5461D265689003E0CB6 /* Build configuration list for PBXNativeTarget "YCXTextViewKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94FD5471D265689003E0CB6 /* Debug */,
+				B94FD5481D265689003E0CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B94FD5491D265689003E0CB6 /* Build configuration list for PBXNativeTarget "YCXTextViewKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94FD54A1D265689003E0CB6 /* Debug */,
+				B94FD54B1D265689003E0CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B94FD54C1D265689003E0CB6 /* Build configuration list for PBXNativeTarget "YCXTextViewKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94FD54D1D265689003E0CB6 /* Debug */,
+				B94FD54E1D265689003E0CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B94FD5161D265688003E0CB6 /* Project object */;
+}
