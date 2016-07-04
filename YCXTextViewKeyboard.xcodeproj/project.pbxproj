@@ -14,6 +14,7 @@
 		B94FD52C1D265689003E0CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94FD52A1D265689003E0CB6 /* LaunchScreen.storyboard */; };
 		B94FD5371D265689003E0CB6 /* YCXTextViewKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FD5361D265689003E0CB6 /* YCXTextViewKeyboardTests.swift */; };
 		B94FD5421D265689003E0CB6 /* YCXTextViewKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FD5411D265689003E0CB6 /* YCXTextViewKeyboardUITests.swift */; };
+		B94FD5501D2656C1003E0CB6 /* ChangeHightTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94FD54F1D2656C1003E0CB6 /* ChangeHightTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B94FD53D1D265689003E0CB6 /* YCXTextViewKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCXTextViewKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94FD5411D265689003E0CB6 /* YCXTextViewKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCXTextViewKeyboardUITests.swift; sourceTree = "<group>"; };
 		B94FD5431D265689003E0CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94FD54F1D2656C1003E0CB6 /* ChangeHightTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeHightTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				B94FD5211D265689003E0CB6 /* AppDelegate.swift */,
 				B94FD5231D265689003E0CB6 /* ViewController.swift */,
+				B94FD54F1D2656C1003E0CB6 /* ChangeHightTextView.swift */,
 				B94FD5251D265689003E0CB6 /* Main.storyboard */,
 				B94FD5281D265689003E0CB6 /* Assets.xcassets */,
 				B94FD52A1D265689003E0CB6 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B94FD5241D265689003E0CB6 /* ViewController.swift in Sources */,
+				B94FD5501D2656C1003E0CB6 /* ChangeHightTextView.swift in Sources */,
 				B94FD5221D265689003E0CB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
